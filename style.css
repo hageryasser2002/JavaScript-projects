@@ -1,0 +1,41 @@
+
+#btn{
+    background-color: blue;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border-style: none;
+}
+
+table, tr, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(238, 6, 238);
+}
+#details{
+    text-align: center;
+    border: 2px solid  black;
+    height: 150px;
+    margin: 0px 500px 0px 500px ;
+    
+}
+
+#dForm{
+    padding: 10px;
+    margin: 10px;
+}
+#dForm input,label, button{
+    margin: 20px;
+}

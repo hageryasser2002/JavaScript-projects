@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="dForm">
+    <label>Enter your name:</label>
+    <input type="text" id="name" value="" ><br>
+
+    <label>Enter your age:</label>
+    <input type="text" id="age" value="" ><br>
+
+    <label>Select your gender:</label><br>
+    <input type="radio" name="radio" id="rad1" value="male" >
+    <img src="./2.jpg" id="male">
+    <input type="radio" name="radio" id="rad2" value="female" >
+    <img src="./1.jpg" id="female"><br>
+
+
+   <label>Select your favourite color:</label>
+    <select id="sel">
+        <option>red</option>
+        <option>green</option>
+        <option>blue</option>
+    </select><br>
+    <button id="btnReg" onclick="printMsg()">Register</button><br>
+</div>
+    
+
+
+   <button id="btn" onclick="requestFunction()">Get All Users</button>
+   <table id="tableData">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+</table>
+<a id="a"></a>
+<h1>User Details</h1>
+
+<div id="details">
+      <p id="id"></p>
+      <p id="name"></p>
+      <p id="email"></p>
+
+</div>
+
+
+     <script src="./cookies.js"></script>
+     <!-- <script src="./Ajax.js"></script> -->
+    <!-- <script src="./exceptionFun1.js"></script>
+    <script src="./exceptionFun2.js"></script> -->
+</body>
+</html>
